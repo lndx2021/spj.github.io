@@ -60,23 +60,25 @@
           </div>
 		
           <div class="weui-cells weui-cells_form">
-      <div class="weui-cells__title">是否能生成辽事通健康通行码？</div>
-      <div class="weui-cells weui-cells_radio">
-        <label class="weui-cell weui-check__label" for="r8">
+      <div class="weui-cells__title">是否能生成辽事通出行码？</div>
+	  <div class="weui-cells weui-cells_radio">
+        <label class="weui-cell weui-check__label" for="r4">
         <div class="weui-cell__bd">是</div>
         <div class="weui-cell__ft">
-          <input type="radio" required class="weui-check" name="fyzz"    value="健康" id="r8" tips="请选择当日身体症状"    onclick="document.getElementById('fyzzxx').removeAttribute('required');document.getElementById('fyzzxxdiv').classList.remove('weui-cell_warn');document.getElementById('fyzzxx').value=''">
+          <input type="radio" required class="weui-check" name="cxyylb"  value="实习" id="r4">
           <span class="weui-icon-checked"></span> </div>
-        </label>
-        <label class="weui-cell weui-check__label" for="r9">
+        </label> 
+		<label class="weui-cell weui-check__label" for="r5">
         <div class="weui-cell__bd">否</div>
         <div class="weui-cell__ft">
-          <input type="radio" name="fyzz"  class="weui-check" value="发热" id="r9"    onclick="document.getElementById('fyzzxx').removeAttribute('required');document.getElementById('fyzzxxdiv').classList.remove('weui-cell_warn');document.getElementById('fyzzxx').value=''">
+          <input type="radio" required class="weui-check" name="cxyylb"  value="求职" id="r5">
           <span class="weui-icon-checked"></span> </div>
         </label>
-	      </div>
-                </div>
-            </div>
+      </div>
+	  
+          </div>
+        </div>
+    </div>
 		<div class="weui-btn-area" > <a id="formSubmitBtn" href="javascript:" class="weui-btn weui-btn_primary">提 交</a> </div>
             
             <script>
